@@ -10,7 +10,7 @@ import com.empresa.model.Funcionario;
 public class FuncionarioDAO {
     private static final String URL = "jdbc:mysql://localhost:3306/empresa";
     private static final String USER = "root";
-    private static final String PASSWORD = "root";
+    private static final String PASSWORD = "@nDr3";
 
     public void adicionarFuncionario(Funcionario funcionario) throws SQLException {
         String sql = "INSERT INTO funcionarios (nome, cargo, horarioEntrada, horarioSaida) VALUES (?, ?, ?, ?)";
